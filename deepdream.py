@@ -12,6 +12,8 @@ import time
 
 import caffe
 
+print "Hello LAB Deepdream Docker!"
+
 def showarray(a):
     a = np.uint8(np.clip(a, 0, 255))
     f = StringIO()
